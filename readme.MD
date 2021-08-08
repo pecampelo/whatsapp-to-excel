@@ -1,13 +1,12 @@
-// Nome do aluno
-// Telefone
-// Profissao
-// Empresa
-// Cidade 
-// Nome do referido
-// Telefone
-// Comentário
-
-/* 
+    /*  Nome do aluno
+    Telefone
+    Profissao
+    Empresa
+    Cidade 
+    Nome do referido    
+    Telefone
+    Comentário
+ 
     Primeira solucao (mais facil)
     
     Electron app que mostra uma interface ao usuario
@@ -21,4 +20,4 @@
     
     Utilizar a API do Whatsapp Business para fazer uma versao do Whatsapp Business ou
     adicionar a funcao "Exportar como .xlsx"
-*/
+    */
