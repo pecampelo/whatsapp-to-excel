@@ -1,0 +1,23 @@
+{
+  "name": "whatsapp-to-excel",
+  "version": "1.0.0",
+  "description": "A package that gets .CSV contacts in a list and formats them into Excel format.\r # Dados",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pecampelo/whatsapp-to-excel.git"
+  },
+  "author": "Pedro Campelo Matheus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pecampelo/whatsapp-to-excel/issues"
+  },
+  "homepage": "https://github.com/pecampelo/whatsapp-to-excel#readme",
+  "devDependencies": {
+    "electron": "^13.1.8",
+    "nodemon": "^2.0.12"
+  }
+}

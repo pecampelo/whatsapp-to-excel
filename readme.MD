@@ -14,6 +14,7 @@ Comentário
  
 ### Primeira solucao (mais facil)
     
+
 Electron app que mostra uma interface ao usuario
 O usuário escreve os dados do indicador e guarda em um array de objetos
 Selecionar arquivos .CSV
