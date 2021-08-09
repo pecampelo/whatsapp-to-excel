@@ -8,20 +8,22 @@
     <body>
         <div id='title'>
             <h1>WhatsApp to Excel</h1>
-            <p>Um transformador de lista de contatos para planilhas </p>
+            <p>Um transformador de lista de contatos para planilhas </p><br>
         </div>
         <form action="/" method="POST" target='_self' enctype="text/plain">
             <label for="contacts">Referidos</label> <br>
-            <input type='text' name='contacts' id='contacts'>  
-            <input type='button' autocomplete='on' value='Escolher Arquivo'><br>
+            <input type='file' name='contacts' value='Escolher Contatos .CSV' multiple><br>
             <label for="excel">Planilha</label> <br>
-            <input type='text' name='excel' id='excel' type="text">  
-            <input for='selectExcel' id='selectExcel' type='button'> <br>    
-            <label for="indicator">Quem indicou</label>
-            <input for='indicator' id='indicator' type='text'><br>
-            <input for='indicatorPhone' id='indicatorPhone' type='text'><br>
-            <input for='commentary' id='commentary' type='text'><br>
-            <input type="submit">
+            <input type='file' name='excel' id='excel' value='Escolher Planilha'> <br><br>
+            <label for="indicator">Indicador</label><br>
+            <input name='indicator' id='indicator' type='text'><br>
+            <label for="indicatorPhone">Telefone do Indicador</label>
+            <input name='indicatorPhone' id='indicatorPhone' type='text'><br>
+            <label for="commentary">Comentários</label>
+            <input name='commentary' id='commentary' type='text'><br><br>
+            <label for="newFile">Criar uma nova planilha</label>
+            <input type="checkbox" name='newFile'><br><br>
+            <input type="submit" target='index.html' value="Converter">
         </form>
     </body>
     <script src='./index.js'></script>
